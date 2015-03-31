@@ -1,0 +1,19 @@
+<use name="DPGAnalysis/EcalAnalysis"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="FWCore/Framework"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/Utilities"/>
+<use name="DataFormats/EcalRecHit"/>
+<use name="DataFormats/EcalDigi"/>
+<use name="DataFormats/HepMCCandidate"/>
+<use name="CondFormats/EcalObjects"/>
+<use name="CondFormats/DataRecord"/>
+<use name="Geometry/CaloGeometry"/>
+<use name="Geometry/CaloTopology"/>
+<use name="root"/>
+<use name="rootcore"/>
+<use name="clhep"/>
+<Flags CXXFLAGS="-ggdb"/>
+<export>
+  <lib   name="1"/>
+</export>
